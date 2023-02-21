@@ -1,0 +1,86 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thanathip</title>
+</head>
+<body>
+    <h1>Welcome to Thanathip's webpage</h1>
+    <p id="test"></p>
+    <script>
+
+        window.alert("Welcome to my website");
+        document.getElementById("test").innerHTML = 'Thanathip' ;
+        console.log(4 + 5);
+        var age = 22;
+        var lastName = "Yadsunthea";
+        var cars = ["Toyota","Honda","BMW"];
+        var me = {firstName:"Thanathip", lastName:"Yadsunthea"};
+        window.alert("age")
+        window.alert("LastName")
+        window.alert("cars")
+        window.alert("me")
+        alert(JSON.stringify(me));
+        console.log(me)
+    </script>
+
+    <p id = "test"></p>
+    <script>
+        //ใส่ตัวเลขให้ตัวแปล x , y และ z
+        var x = 16;
+        var y = 30;
+        var z = x + y;
+        document.getElementById("test").innerHTML = z;       
+        var z = x+y
+
+    </script>
+<button onclick="this.innerHTML=Date()">This time is?</button>
+
+<script>
+function myFunction(a, b, c)
+    {
+        x = a*b;
+        alert("ผลลัพธ์ของ a*b=" + x);
+    }
+    
+    </script>
+    <button onclick="myFunction(18, 21)">Click Me</button>
+<script>
+ function myFunction(a, b, c)
+    {
+        alert("welcome " + a + ", คุณ " + b + ", คุณ " + c);
+    }
+    
+    </script>
+ <button onclick="myFunction('ธนาธิป', 'มินตรา', 'ณัฐพล')">ต้อนรับ</button>
+
+<!--if condition-->
+<script>
+    a=1;
+    if(a==1){
+    alert("a มีค่าเท่ากับ 1")}
+</script>
+
+<!--if else condition-->
+<script>
+    a=0;
+    if(a==1){
+    alert("a มีค่าเท่ากับ1");}
+    else{
+    alert("a มีค่าไม่เท่ากับ1");}
+    
+    a=2;
+    if(a==1){
+    alert("a มีค่าเท่ากับ1");}
+    else if(a==2){
+    alert("a มีค่าเท่ากับ2");} 
+    else {
+    alert("a มีค่าไม่เท่ากับ1");} 
+
+for(i=1;i<=5;++i) {
+    document.write("การวนรอบที่"+i+ "<br>");}
+</script>
+
+</body>
+</html>
